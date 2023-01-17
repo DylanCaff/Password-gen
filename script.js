@@ -32,11 +32,10 @@ function generatePassword() {
       generatePassword();
     } else {
       for(var i = 0; i < passLength; i++) {
-          var random = Math.floor(math.random() * array.length);
+          var random = Math.floor(Math.random() * array.length);
           answer += array[random];
       }
     }
-    console
     return answer;
   }
   
